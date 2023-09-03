@@ -10,14 +10,20 @@ This folder is responsible for housing the configuration files necessary for you
 ├── 📁 configs/
 │   │
 │   ├── 📁 env/
-│   │   │
-│   |   ├──📄 develop.env
-│   │   ├──📄 prod.env
+│   │   ├──📄 .env.develop
+│   │   ├──📄 .env.welcome
+│   │   ├──📄 .env.prod
 │   │
-│   ├── 📁 typescript/
-│       │
-│       ├── 📄 tsconfig.json
+│   ├── 📁 json/
+│       ├──📄 develop.json
+│       ├──📄 welcome.json
+│       ├──📄 prod.json
 │
+│
+├── 📁 typescript/
+│   │
+│   ├── 📄 tsconfig.json
+│       
 ├── 📁 linter/
 │   │
 │   ├── 📄 .eslintrc.json
@@ -28,3 +34,11 @@ This folder is responsible for housing the configuration files necessary for you
 │
 ├── 📄 README.md
 ```
+
+- [📁 configs/]() **This folder is responsible for the configuration files so that they do not lie in different places**
+
+- [📁 typescript/]() **This folder is responsible for the typescript configuration**
+
+- [📁 linter/]()**This folder is responsible for the ESLint configuration**
+
+- [📁 materials/]() **Folder responsible for project documentation**
