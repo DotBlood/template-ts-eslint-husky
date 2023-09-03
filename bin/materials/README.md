@@ -1,0 +1,1 @@
+# Folder that contains documentation for the project
