@@ -7,16 +7,19 @@ This is a clean template for TypeScript (ts) with ESLint. All configuration file
 ```
 📦 App/
 ├── 📂 bin/            #(Configuration folder)
-│   ├── 📄 eslint-config.json  #(ESLint configuration)
-│   ├── 📄 tsconfig.json       #(TypeScript configuration)
 │
 ├── 📂 build/          #(Build folder)
+│
+├── 📂 lib/            #(internal modules)
 │
 ├── 📂 src/            #(Source code folder)
 │
 ├── 📂 test/           #(Test folder)
-
 ```
+[📂 bin/](https://github.com/DotBlood/template-ts-eslint-husky/tree/master/bin)
+[📂 src/](https://github.com/DotBlood/template-ts-eslint-husky/tree/master/src)
+[📂 lib/](https://github.com/DotBlood/template-ts-eslint-husky/tree/master/lib)
+[📂 test/](https://github.com/DotBlood/template-ts-eslint-husky/tree/master/test)
 
 This template provides a structured setup for your TypeScript project, with configuration files conveniently placed in the bin folder for easy access and management.
 
