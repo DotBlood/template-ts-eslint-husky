@@ -39,7 +39,7 @@ cd <ProjectName>
 
 Remove the .git folder:
 ```
-rm -rf ./.git 
+rm -r ./.git 
 ```
 
 - Initialize a new Git repository if you haven't already:
