@@ -29,12 +29,12 @@ To begin using this template, follow these 5 steps:
 
 - Clone the template repository without the Git metadata by using the following git clone command:
 ``` bash
-git clone --bare -n --depth 1 https://github.com/DotBlood/template-ts-eslint-husky.git <projectName>
+git clone --bare -n --depth 1 https://github.com/DotBlood/template-ts-eslint-husky.git <ProjectName>
 ```
 
 - Change your current directory to the location where the repository was cloned:
 ``` bash
-cd template-ts-eslint-husky
+cd <ProjectName>
 ```
 
 - Initialize a new Git repository if you haven't already:
