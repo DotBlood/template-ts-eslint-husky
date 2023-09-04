@@ -37,11 +37,15 @@ git clone https://github.com/DotBlood/template-ts-eslint-husky.git <ProjectName>
 cd <ProjectName>
 ```
 
+Remove the .git folder:
+```
+rm -rf ./.git 
+```
+
 - Initialize a new Git repository if you haven't already:
 ``` bash
 git init
 ```
-
 
 - Install the project dependencies by running the following npm command:
 ``` bash
